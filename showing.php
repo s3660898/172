@@ -2,16 +2,24 @@
 <html>
 	<head>
 	<title>A2 SHOWING Page</title>
-	<link type="text/css" rel="stylesheet" href="/~s3660898/wp/a2/wireframe.css"/>
+	<link type="text/css" rel="stylesheet" href="wireframe.css"/>
 	</head>
 	
 	<body>
 		<header>
-			<img src="/~s3660898/wp/a2/logo.png" alt="silverado logo">
+			<img src="logo.png" alt="silverado logo">
 		</header>
 		<nav>
-			<a href="/~s3660898/wp/a2/index.php"><img src="/~s3660898/wp/a2/home.png" alt="home"></a>
-		</nav>
+
+            <!--<p>This is the nav section.</p>-->
+            <!--<a href="/~s3660898/wp/a2/index.php"><img src="/~s3660898/wp/a2/home.png" alt="home"></a>-->
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a class="active" href="showing.php">Now Showing</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li style="float:right"><a href="#about">About</a></li>
+            </ul>
+        </nav>
 		<main>
 			<h1>NOW SHOWING:</h1>
 			<div class="image-gallery">
@@ -38,7 +46,7 @@
 			</div>
 		</main>
 		<main>
-			<form method='post'>
+			<form method='post' action="https://titan.csit.rmit.edu.au/~e54061/wp/silverado-test.php">
 				<fieldset><legend>Booking Form</legend>
 				  <p><label>Movie</label><select name=TBA></select></p>
 				  <p><label>Session</label><select name=TBA></select></p>

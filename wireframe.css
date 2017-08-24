@@ -1,11 +1,36 @@
+/* Navbar stuff that's worth cleaning up */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ACB3B9;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #8d949a;
+}
+.active {
+    background-color: #547EAB;
+}
+
 /* Make HTML and body content viewable, layout to fill window */
 html
 {
   padding: 5px 100px;
   margin:0px;
-  background: rgba(40,40,40,0.1);
-  background-image: url('/~s3660898/wp/a2/background.png');
-  border: 5px solid hsl(314,0%,40%);
+  background: #9098A1;
+    background-color: #9098A1;
+    border: 5px solid hsl(314,0%,40%);
   box-sizing: border-box;
   
   font-family: "Times New Roman";
@@ -13,8 +38,8 @@ html
 body {
   padding:5px;
   margin:0px;
-  background-color: hsl(210,8%,70%);
-  border: 5px solid hsl(314,0%,40%);
+  background-color: #5E5E5E;
+  /*border: 5px solid hsl(314,0%,40%);*/
   box-sizing: border-box;
 }
 html {
@@ -23,7 +48,6 @@ html {
 body {
   min-height:calc(100vh - 40px);
 }
-
 
 /* Give all semantic body elements uniform layout style */
 header,
@@ -62,7 +86,7 @@ main
 footer
 {
   background-color: hsl(210,2%,90%);
-  border: 5px solid hsl(211,34%,50%);
+  border: 5px solid hsl(211, 34%, 50%);
 }
 aside
 {
@@ -151,3 +175,5 @@ body {
 footer > p {
 	text-align: center;
 }
+
+
