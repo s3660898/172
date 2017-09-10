@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now Showing</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
+    <link rel="stylesheet" href="wireframe.css"/>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="">Now Showing</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+</nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<header>
+    <div id="centre">
+        <h1><b>SILVERADO CINEMAS</b></h1>
+        <p>Luxury cinemas that dont actually exist.</p>
+    </div>
+    <br>
+</header>
+<main>
+    <!-- Main stuff here -->
+    <div id="centre">
+        <h2>NOW SHOWING:</h2>
+        <br>
+        <div class="container">
+            <div class="column">
+                <!-- Action Movie -->
+                <img src="movie_icons/BabyDriver.jpg" alt="Baby Driver"/>
+                <h2>Baby Driver</h2>
+                <h3>Showing:</h3>
+                <p>N/A</p>
+                <p>N/A</p>
+                <p>Wednesdays 9:00pm</p>
+                <p>Thursdays 9:00pm</p>
+                <p>Fridays 9:00pm</p>
+                <p>Saturdays 9:00pm</p>
+                <p>Sundays 9:00pm</p>
+            </div>
+            <div class="column">
+                <!-- Kid's Movie -->
+                <img src="movie_icons/TheEmojiMovie.jpg" alt="The Emoji Movie"/>
+                <h2>The Emoji Movie</h2>
+                <h3>Showing:</h3>
+                <p>Mondays 1:00pm</p>
+                <p>Tuesdays 1:00pm</p>
+                <p>Wednesdays 6:00pm</p>
+                <p>Thursdays 6:00pm</p>
+                <p>Fridays 6:00pm</p>
+                <p>Saturdays 12:00pm</p>
+                <p>Saturdays 12:00pm</p>
+            </div>
+            <div class="column">
+                <!-- Art/Foreign Movie-->
+                <img src="movie_icons/TheSquare.jpg" alt="The Square"/>
+                <h2>The Square</h2>
+                <h3>Showing:</h3>
+                <p>Mondays 6:00pm</p>
+                <p>Tuesdays 6:00pm</p>
+                <p>N/A</p>
+                <p>N/A</p>
+                <p>N/A</p>
+                <p>Saturdays 3:00pm</p>
+                <p>Saturdays 3:00pm</p>
+            </div>
+            <div class="column">
+                <!-- Romantic Comedy Movie -->
+                <img src="movie_icons/TheBigSick.jpg" alt="The Big Sick"/>
+                <h2>The Big Sick</h2>
+                <h3>Showing:</h3>
+                <p>Mondays 9:00pm</p>
+                <p>Tuesdays 9:00pm</p>
+                <p>Wednesdays 1:00pm</p>
+                <p>Thursdays 1:00pm</p>
+                <p>Fridays 1:00pm</p>
+                <p>Saturdays 6:00pm</p>
+                <p>Saturdays 6:00pm</p>
+            </div>
+        </div>
+        <!--
+         <div class="container">
+            <div class="column">
+                <img src="movie_icons/AClockworkOrange.jpg" alt="A Clockwork Orange"/>
+                <img src="movie_icons/ANewHope.jpg" alt="Star Wars: A New Hope"/>
+                <img src="movie_icons/ApocalypseNow.jpg" alt="Apocalypse Now"/>
+                <img src="movie_icons/GranTorino.jpg" alt="Gran Torino"/>
+                <img src="movie_icons/IngloriousBasterds.jpg" alt="Inglorious Basterds"/>
+            </div>
+            <div class="column">
+                <img src="movie_icons/SevenSamurai.jpg" alt="Seven Samurai"/>
+                <img src="movie_icons/WomanInTheDunes.jpg" alt="Woman In The Dunes"/>
+                <img src="movie_icons/ThePrincessBride.jpg" alt="The Princess Bride"/>
+                <img src="movie_icons/Up.jpg" alt="Up"/>
+                <img src="movie_icons/LeonTheProfessional.jpg" alt="Leon The Professional">
+            </div>
+            <div class="column">
+                <img src="movie_icons/Casablanca.jpg" alt="Casablanca">
+                <img src="movie_icons/TheThirdMan.jpg" alt="The Third Man">
+                <img src="movie_icons/FiddlerOnTheRoof.jpg" alt="Fiddler On The Roof">
+                <img src="movie_icons/DonnieDarko.jpg" alt="Donnie Darko">
+                <img src="movie_icons/PulpFiction.jpg" alt="Pulp Fiction">
+            </div>
+        </div>
+         -->
+    </div>
+    <div id="centre" class="form">
+        <h2>Book Now</h2>
+        <br>
+        <form method='post' action="https://titan.csit.rmit.edu.au/~e54061/wp/silverado-test.php">
+            <fieldset><legend>Booking Form</legend>
+                <p><label>Movie</label><select name=TBA></select></p>
+                <p><label>Session</label><select name=TBA></select></p>
+                <fieldset><legend>Seats</legend>
+                    <fieldset><legend>Standard</legend>
+                        <p><label>Adult</label><select name=TBA></select></p>
+                        <p><label>Concession</label><select name=TBA></select></p>
+                        <p><label>Child</label><select name=TBA></select></p>
+                    </fieldset>
+                    <fieldset><legend>First Class</legend>
+                        <p><label>Adult</label><select name=TBA></select></p>
+                        <p><label>Child</label><select name=TBA></select></p>
+                    </fieldset>
+                    <fieldset><legend>Bean Bags</legend>
+                        <p><label>Adult</label><select name=TBA></select></p>
+                        <p><label>Family</label><select name=TBA></select></p>
+                        <p><label>Child</label><select name=TBA></select></p>
+                    </fieldset>
+                </fieldset>
+                <p><button>Book</button></p>
+            </fieldset>
+        </form>
+    </div>
+</main>
+<footer>
+    <div id="centre">
+        <p style="color: white">Kieran Murray s3660898 &amp Will Cohen s3660470</p>
+    </div>
+</footer>
+</body>
+</html>
