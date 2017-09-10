@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
@@ -122,3 +123,184 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+=======
+/* Navbar stuff that's worth cleaning up */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ACB3B9;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #8d949a;
+}
+.active {
+    background-color: #547EAB;
+}
+
+/* Make HTML and body content viewable, layout to fill window */
+html
+{
+  padding: 5px 100px;
+  margin:0px;
+  background: #9098A1;
+    background-color: #9098A1;
+    border: 5px solid hsl(314,0%,40%);
+  box-sizing: border-box;
+  
+  font-family: "Times New Roman";
+}
+body {
+  padding:5px;
+  margin:0px;
+  background-color: #5E5E5E;
+  /*border: 5px solid hsl(314,0%,40%);*/
+  box-sizing: border-box;
+}
+html {
+  min-height:100vh;
+}
+body {
+  min-height:calc(100vh - 40px);
+}
+
+/* Give all semantic body elements uniform layout style */
+header,
+nav,
+main,
+footer,
+aside,
+section,
+article,
+details,
+div
+{
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* Give each semantic body element a different color */
+header
+{
+  background-color: hsl(210,2%,90%);
+  border: 5px solid hsl(211,34%,50%);
+}
+nav
+{
+  background-color: hsl(210,100%,97%);
+  border: 5px solid hsl(210,100%,60%);
+}
+
+main
+{
+  background-color: hsl(210,2%,90%);
+  border: 5px solid hsl(211,34%,50%);
+}
+
+footer
+{
+  background-color: hsl(210,2%,90%);
+  border: 5px solid hsl(211, 34%, 50%);
+}
+aside
+{
+  background-color: hsl(180,100%,97%);
+  border: 5px solid hsl(180,100%,40%);
+}
+section
+{
+  background-color: hsl(30,100%,97%);
+  border: 5px solid hsl(30,100%,60%);
+}
+article, details
+{
+  background-color: hsl(270,100%,97%);
+  border: 5px solid hsl(270,100%,60%);
+}
+div {
+  background-color: hsl(240,100%,95%);
+  border: 5px solid hsl(240,100%,40%);  
+}
+
+/* HTML 4 Deprecated Tags and Attributes*/
+center,
+font,
+menu,
+marquee,
+*[align],
+*[border],
+*[color],
+*[bgcolor]
+{
+  padding:10px;
+  background: repeating-linear-gradient(315deg, #999 0px, #999 20px, #FF9 20px, #FF9 40px) !important;
+  border:20px solid black;
+}
+frame,
+table {
+  padding:10px;
+  background: repeating-linear-gradient(315deg, #999 0px, #999 20px, #9FF 20px, #9FF 40px) !important;
+}
+
+center::after,
+font::after,
+menu::after,
+marquee::after,
+*[align]::after,
+*[border]::after,
+*[color]::after,
+*[bgcolor]::after
+{ 
+  content:"Do not use HTML4 deprecated styling tags and attributes in your assignments";
+  font-size:800%;
+  color:red;
+  font-weight:bold;
+  text-shadow: 1px 1px 3px white;
+}
+
+
+
+
+/*CUSTOM CSS*/
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.image-gallery img {
+	display: block;
+	float: left;
+	height: 210px;
+	width: 140px;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Courier New";
+	color: hsl(211,34%,50%);
+}
+
+body {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+footer > p {
+	text-align: center;
+}
+
+
+>>>>>>> 3a2bb939b0a8834453b1a1ea2cfa0e3dffa0d0bd
